@@ -10,12 +10,18 @@ export default function Projects() {
         description: "An amazing web app built with React.",
         image: "/project1.jpg",
         link: "#",
+        timeline: "Jan 2023 - Mar 2023",
+        repository: "https://github.com/username/project-one",
+        liveLink: "https://project-one-live.com",
       },
       {
         title: "Project Two",
         description: "A powerful tool developed using Node.js.",
         image: "/project2.jpg",
         link: "#",
+        timeline: "Apr 2023 - Jun 2023",
+        repository: "https://github.com/username/project-two",
+        liveLink: "https://project-two-live.com",
       },
       // Add more website projects as needed
     ],
@@ -25,12 +31,18 @@ export default function Projects() {
         description: "A fantastic mobile app built with Flutter.",
         image: "/app1.jpg",
         link: "#",
+        timeline: "Feb 2023 - May 2023",
+        repository: "https://github.com/username/app-one",
+        liveLink: "https://app-one-live.com",
       },
       {
         title: "App Two",
         description: "An innovative app developed with React Native.",
         image: "/app2.jpg",
         link: "#",
+        timeline: "Jul 2023 - Sep 2023",
+        repository: "https://github.com/username/app-two",
+        liveLink: "https://app-two-live.com",
       },
       // Add more apps as needed
     ],
@@ -65,9 +77,8 @@ export default function Projects() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {projects[activeTab].map((project, index) => (
-          <a
+          <div
             key={index}
-            href={project.link}
             className="block bg-white dark:bg-gray-800 shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition"
           >
             <img
@@ -82,8 +93,29 @@ export default function Projects() {
               <p className="mt-2 text-gray-700 dark:text-gray-300">
                 {project.description}
               </p>
+              <p className="mt-2 text-gray-600 dark:text-gray-400">
+                <strong>Timeline:</strong> {project.timeline}
+              </p>
+              <div className="mt-4 flex justify-between items-center">
+                <a
+                  href={project.repository}
+                  className="text-blue-600 dark:text-yellow-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Repository
+                </a>
+                <a
+                  href={project.liveLink}
+                  className="text-blue-600 dark:text-yellow-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live Project
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
         ))}
       </div>
     </section>

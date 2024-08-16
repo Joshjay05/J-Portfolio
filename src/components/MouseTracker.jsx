@@ -16,7 +16,7 @@ export default function MouseTracker() {
 
   return (
     <div
-      className="fixed top-0 left-0 w-6 h-6 bg-blue-500 rounded-full pointer-events-none opacity-75"
+      className="fixed top-0 left-0 w-4 h-4 bg-blue-500 rounded-full pointer-events-none opacity-75"
       style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
     />
   );
