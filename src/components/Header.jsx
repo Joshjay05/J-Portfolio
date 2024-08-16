@@ -1,5 +1,6 @@
-// src/components/Header.jsx
 import { useState } from "react";
+import { FaSun, FaMoon } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
@@ -10,11 +11,11 @@ export default function Header() {
   };
 
   return (
-    <header className="p-6 flex justify-between items-center bg-gray-100 dark:bg-gray-900">
-      <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100">
+    <header className="p-4 md:p-6 flex justify-between items-center bg-gray-100 dark:bg-gray-900">
+      <h1 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-100">
         Frontend Developer
       </h1>
-      <nav className="space-x-6">
+      <nav className="space-x-4 md:space-x-6">
         <a
           href="#about"
           className="text-gray-700 dark:text-gray-300 hover:underline"
@@ -40,12 +41,18 @@ export default function Header() {
           Contact
         </a>
       </nav>
-      <button
+      <motion.button
         onClick={toggleDarkMode}
-        className="ml-4 p-2 bg-blue-600 text-white rounded dark:bg-yellow-500"
+        className="ml-4 p-2 rounded-full bg-blue-600 dark:bg-yellow-500"
+        whileHover={{ rotate: 360 }}
+        transition={{ duration: 0.5 }}
       >
-        {darkMode ? "Light Mode" : "Dark Mode"}
-      </button>
+        {darkMode ? (
+          <FaSun className="text-white" />
+        ) : (
+          <FaMoon className="text-white" />
+        )}
+      </motion.button>
     </header>
   );
 }

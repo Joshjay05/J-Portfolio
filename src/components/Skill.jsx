@@ -1,7 +1,12 @@
-// src/components/Skills.jsx
 // import React from 'react';
-import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
-import { SiTailwindcss, SiJavascript } from "react-icons/si";
+import { FaReact, FaNodeJs, FaDatabase, FaGitAlt } from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiJavascript,
+  SiTypescript,
+  SiJest,
+  SiNextdotjs,
+} from "react-icons/si";
 
 export default function Skills() {
   const skills = [
@@ -26,12 +31,32 @@ export default function Skills() {
       icon: SiJavascript,
       description: "Core web development",
     },
+    {
+      name: "TypeScript",
+      icon: SiTypescript,
+      description: "Typed JavaScript for robust apps",
+    },
+    {
+      name: "Git",
+      icon: FaGitAlt,
+      description: "Version control and collaboration",
+    },
+    {
+      name: "Jest",
+      icon: SiJest,
+      description: "Testing JavaScript applications",
+    },
+    {
+      name: "Next.js",
+      icon: SiNextdotjs,
+      description: "React framework for production",
+    },
   ];
 
   return (
     <section id="skills" className="py-20 bg-gray-100 dark:bg-gray-900">
       <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-gray-100 mb-12">
-        My Skills
+        my &#123;Dev&#125; Skills
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         {skills.map((skill) => (

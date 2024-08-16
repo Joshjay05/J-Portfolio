@@ -2,10 +2,11 @@
 // import React from 'react';
 
 export default function Footer() {
+  const year = new Date().getFullYear();
   return (
     <footer className="py-8 bg-gray-200 dark:bg-gray-800">
       <div className="text-center text-gray-700 dark:text-gray-300">
-        &copy; 2024 Your Name. All rights reserved.
+        &copy; {year} Jesulona Joshua. All rights reserved.
       </div>
       <div className="flex justify-center space-x-4 mt-4">
         <a

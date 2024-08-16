@@ -9,6 +9,7 @@ import MouseTracker from "./components/MouseTracker";
 import ScrollProgress from "./components/ScrollProgress"; // ScrollProgress from "./components/ScrollProgress";
 import PageLoader from "./components/PageLoader"; // PageLoader from "./components/PageLoader";
 import Footer from "./components/Footer";
+import AboutMe from "./components/About";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <MouseTracker />
       <Header />
       <Hero />
+      <AboutMe />
       <Skills />
       <Projects />
       <Footer />
