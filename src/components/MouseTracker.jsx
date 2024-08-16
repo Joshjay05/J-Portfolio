@@ -1,4 +1,3 @@
-// src/components/MouseTracker.jsx
 import { useEffect, useState } from "react";
 
 export default function MouseTracker() {
@@ -16,7 +15,11 @@ export default function MouseTracker() {
 
   return (
     <div
-      className="fixed top-0 left-0 w-4 h-4 bg-blue-500 rounded-full pointer-events-none opacity-75"
+      className={`fixed top-0 left-0 w-4 h-4 rounded-full pointer-events-none opacity-75 ${
+        document.documentElement.classList.contains("dark")
+          ? "bg-yellow-400"
+          : "bg-blue-500"
+      }`}
       style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
     />
   );

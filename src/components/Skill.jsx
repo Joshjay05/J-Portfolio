@@ -55,9 +55,22 @@ export default function Skills() {
 
   return (
     <section id="skills" className="py-20 bg-gray-100 dark:bg-gray-900">
-      <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-gray-100 mb-12">
-        my &#123;Dev&#125; Skills
-      </h3>
+      <div className="text-center mb-12">
+        <h3
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          className="text-xl relative inline-block text-white dark:text-[#001b20]"
+        >
+          <span className="mr-5 text-[#ffbd59]">
+            {" "}
+            3. my &#123;Dev&#125; Skills
+          </span>
+          <span className="absolute right-[190px] bottom-[-10px] h-[1.5px] w-[900px] bg-[#f6a326]" />
+        </h3>
+      </div>
+      <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-gray-100 mb-12"></h3>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         {skills.map((skill) => (
           <div key={skill.name} className="flex flex-col items-center">

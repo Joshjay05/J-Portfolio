@@ -19,7 +19,7 @@ export default function Hero() {
       <div className="flex mt-6 space-x-2 md:space-x-4">
         <motion.a
           href="#work"
-          className="px-4 py-2 md:px-6 md:py-3 bg-blue-600 text-white rounded hover:bg-blue-700"
+          className="px-4 py-2 md:px-6 md:py-3 bg-blue-600 text-white rounded hover:bg-blue-700 hover:text-white"
           whileHover={{ scale: 1.1 }}
         >
           View my work

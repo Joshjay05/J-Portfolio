@@ -23,22 +23,22 @@ export default function Header() {
           About
         </a>
         <a
-          href="#portfolio"
+          href="#skills"
           className="text-gray-700 dark:text-gray-300 hover:underline"
         >
-          Portfolio
+          Tools
         </a>
         <a
-          href="#blog"
+          href="#projects"
           className="text-gray-700 dark:text-gray-300 hover:underline"
         >
-          Blog
+          Projects
         </a>
         <a
-          href="#contact"
+          href="#experience"
           className="text-gray-700 dark:text-gray-300 hover:underline"
         >
-          Contact
+          Experience
         </a>
       </nav>
       <motion.button

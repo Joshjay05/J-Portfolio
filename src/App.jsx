@@ -1,5 +1,7 @@
 // src/App.jsx
 // import React from 'react';
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero"; // Hero from "./components/Hero";
 import Skills from "./components/Skill"; // Skills from "./components/Skills";
@@ -10,6 +12,8 @@ import ScrollProgress from "./components/ScrollProgress"; // ScrollProgress from
 import PageLoader from "./components/PageLoader"; // PageLoader from "./components/PageLoader";
 import Footer from "./components/Footer";
 import AboutMe from "./components/About";
+import Timeline from "./components/Timeline";
+import Experience from "./components/files/Experience";
 
 export default function App() {
   return (
@@ -19,9 +23,13 @@ export default function App() {
       <MouseTracker />
       <Header />
       <Hero />
+
       <AboutMe />
       <Skills />
+      <Experience />
       <Projects />
+      <Timeline />
+
       <Footer />
       {/* <Footer />
        */}
