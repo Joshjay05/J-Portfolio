@@ -1,5 +1,6 @@
 // import React from "react";
 import PropTypes from "prop-types";
+import { BiCode } from "react-icons/bi";
 import { CiLink } from "react-icons/ci";
 // import { IoCodeSlashOutline } from "react-icons/io5";
 // import { IoCodeSlashOutline } from "react-icons/io5";
@@ -11,6 +12,7 @@ const EachTimeline = ({
   title,
   index,
   //   date,
+  githubLink,
   website,
   organization,
 }) => {
@@ -47,9 +49,17 @@ const EachTimeline = ({
             href={website}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
+            // className="text-blue-500 hover:underline"
           >
-            <CiLink className="inline-block mr-2" /> Visit Website
+            <CiLink className="inline-block mr-2" />
+          </a>
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            // className="text-blue-500 hover:underline"
+          >
+            <BiCode className="inline-block mr-2" />
           </a>
         </div>
       </div>
@@ -65,6 +75,9 @@ EachTimeline.propTypes = {
   index: PropTypes.number.isRequired,
   date: PropTypes.string.isRequired,
   website: PropTypes.string.isRequired,
+  githubLink: PropTypes.string.isRequired,
+  //   website: PropTypes.string.isRequired,
+  //
   organization: PropTypes.string.isRequired,
 };
 
