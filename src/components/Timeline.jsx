@@ -1,12 +1,11 @@
 // import React from "react";
-import PropTypes from "prop-types";
-import EachTimeline from "./EachTimeLine";
+import EachTimeline from "./EachTimeline";
 
 const Timeline = () => {
   const timelines = [
     {
       title: "TM30 Academy",
-      text: ".",
+      text: " ",
       id: "faq1",
       date: "March 15, 2022",
       direction: "left",
@@ -16,37 +15,37 @@ const Timeline = () => {
     },
     {
       title: "Teens-Literacy Foundation",
-      text: ".",
+      text: " ",
       id: "faq2",
       direction: "right",
       date: "October 11, 2023",
-      githubLink: "https://github.com/Joshjay05/teens-litereacy",
+      githubLink: "https://github.com/Joshjay05/teens-literacy",
       website: "https://teensliteracyfoundation.org/",
       organization: "Teens-Literacy Foundation",
     },
     {
       title: "GWC WaitList",
-      text: ".",
+      text: " ",
       id: "faq3",
       direction: "left",
       date: "June 05, 2023",
       githubLink: "https://github.com/Joshjay05/New-WaitList",
       website: "https://waitlist.gwctechhub.com/",
-      organization: "GWCTechSchoolAFrica",
+      organization: "GWCTechSchoolAfrica",
     },
     {
       title: "GWCTechSChoolAfrica Website",
-      text: ".",
+      text: " ",
       id: "faq4",
       direction: "right",
       date: "ongoing",
       githubLink: "https://github.com/Joshjay05/GWC",
       website: "https://gwc-school-22dv.vercel.app/",
-      organization: "GWCTechSchoolAFrica",
+      organization: "GWCTechSchoolAfrica",
     },
     {
       title: "TMSaaS Admin-Dashboard",
-      text: ".",
+      text: " ",
       id: "faq5",
       direction: "left",
       date: "ongoing",
@@ -56,18 +55,18 @@ const Timeline = () => {
     },
     {
       title: "GWC-Student Dashboard",
-      text: "",
+      text: " ",
       id: "faq6",
       direction: "right",
       date: "Ongoing",
       githubLink: "https://github.com/Joshjay05/Student_dashboard",
       website: "https://student-dashboard-7sim.vercel.app/",
-      organization: "GWCTechSchoolAFrica",
+      organization: "GWCTechSchoolAfrica",
     },
     {
       title: "GWC-Teacher's Dashboard",
-      text: ".",
-      id: "faq6",
+      text: "",
+      id: "faq7", // Updated to be unique
       direction: "left",
       date: "Ongoing",
       githubLink: "#",
@@ -76,18 +75,19 @@ const Timeline = () => {
     },
     {
       title: "CHATTER APP",
-      text: ".",
-      id: "faq6",
-      direction: "left",
+      text: "",
+      id: "faq8", // Updated to be unique
+      direction: "right",
       date: "Ongoing",
       githubLink: "https://github.com/Joshjay05/Chatter_Page",
       website: "",
       organization: "Personal",
     },
   ];
+
   return (
-    <div className="w-full  py-8 flex flex-col justify-around">
-      {timelines?.map((timeline, index) => (
+    <div className="w-full py-8 flex flex-col justify-around">
+      {timelines.map((timeline, index) => (
         <EachTimeline
           key={timeline.id}
           id={timeline.id}
@@ -97,25 +97,12 @@ const Timeline = () => {
           index={index}
           date={timeline.date}
           website={timeline.website}
+          githubLink={timeline.githubLink}
           organization={timeline.organization}
         />
       ))}
     </div>
   );
-};
-
-Timeline.propTypes = {
-  timelines: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      direction: PropTypes.oneOf(["left", "right"]).isRequired,
-      text: PropTypes.string.isRequired,
-      title: PropTypes.string.isRequired,
-      date: PropTypes.string.isRequired,
-      website: PropTypes.string.isRequired,
-      organization: PropTypes.string.isRequired,
-    })
-  ).isRequired,
 };
 
 export default Timeline;

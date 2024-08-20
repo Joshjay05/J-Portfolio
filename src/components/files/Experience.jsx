@@ -37,9 +37,9 @@ const Experience = () => {
             data-aos-easing="linear"
             data-aos-duration="800"
             data-aos-delay="300"
-            className="text-xl relative inline-block text-white dark:text-[#001b20]"
+            className="text-xl relative inline-block text-[#001b20] dark:text-white"
           >
-            <span className="mr-5 text-[#ffbd59]">4. Experience</span>
+            <span className="mr-5 text-[#ffbd59]">4.</span> Experience
             <span className="absolute left-[190px] bottom-[-10px] h-[1.5px] w-[900px] bg-[#f6a326]" />
           </h3>
         </div>
@@ -54,13 +54,13 @@ const Experience = () => {
               data-aos-delay={`${(idx + 1) * 150}`}
             >
               <ExpCard>
-                <h3 className="text-lg text-white dark:text-[#001b20]">
+                <h3 className="text-lg text-[#001b20] dark:text-white">
                   {exp.place}
                 </h3>
-                <p className="text-white dark:text-[#001b20]">
+                <p className="text-[#001b20] dark:text-white">
                   {exp.experience}
                 </p>
-                <p className="text-white dark:text-[#001b20]">{exp.pos}</p>
+                <p className="text-[#001b20] dark:text-white">{exp.pos}</p>
               </ExpCard>
             </div>
           ))}

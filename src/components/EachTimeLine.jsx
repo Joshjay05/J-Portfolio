@@ -1,17 +1,13 @@
-// import React from "react";
 import PropTypes from "prop-types";
 import { BiCode } from "react-icons/bi";
 import { CiLink } from "react-icons/ci";
-// import { IoCodeSlashOutline } from "react-icons/io5";
-// import { IoCodeSlashOutline } from "react-icons/io5";
 
 const EachTimeline = ({
-  //   id,
   direction,
   text,
   title,
   index,
-  //   date,
+  date,
   githubLink,
   website,
   organization,
@@ -28,6 +24,7 @@ const EachTimeline = ({
         }`}
       >
         <p className="text-yellow-400 font-bold">{title}</p>
+        <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{date}</p>
         <p className="text-sm text-gray-900 dark:text-gray-100">{text}</p>
       </div>
       <div className="flex flex-col items-center">
@@ -44,23 +41,23 @@ const EachTimeline = ({
         <p className="mb-2 font-bold text-gray-900 dark:text-gray-100">
           {organization}
         </p>
-        <div className="flex items-center">
-          <a
-            href={website}
-            target="_blank"
-            rel="noopener noreferrer"
-            // className="text-blue-500 hover:underline"
-          >
-            <CiLink className="inline-block mr-2" />
-          </a>
-          <a
-            href={githubLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            // className="text-blue-500 hover:underline"
-          >
-            <BiCode className="inline-block mr-2" />
-          </a>
+        <div
+          className={`flex items-center gap-3 ${
+            direction === "right"
+              ? "lg:ml-[22rem] md:ml-[16rem] sm:ml-[8rem]"
+              : "ml-0"
+          }`}
+        >
+          {website && (
+            <a href={website} target="_blank" rel="noopener noreferrer">
+              <CiLink className="inline-block mr-2 sm:mr-0" />
+            </a>
+          )}
+          {githubLink && (
+            <a href={githubLink} target="_blank" rel="noopener noreferrer">
+              <BiCode className="inline-block mr-2" />
+            </a>
+          )}
         </div>
       </div>
     </div>
@@ -74,10 +71,8 @@ EachTimeline.propTypes = {
   title: PropTypes.string.isRequired,
   index: PropTypes.number.isRequired,
   date: PropTypes.string.isRequired,
-  website: PropTypes.string.isRequired,
-  githubLink: PropTypes.string.isRequired,
-  //   website: PropTypes.string.isRequired,
-  //
+  website: PropTypes.string, // Made optional
+  githubLink: PropTypes.string, // Made optional
   organization: PropTypes.string.isRequired,
 };
 

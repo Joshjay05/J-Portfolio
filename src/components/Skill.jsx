@@ -54,7 +54,10 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-20 bg-gray-100 dark:bg-gray-900">
+    <section
+      id="skills"
+      className="py-20 px-[10px] bg-gray-100 dark:bg-gray-900"
+    >
       <div className="text-center mb-12">
         <h3
           data-aos="zoom-in"
@@ -73,7 +76,10 @@ export default function Skills() {
       <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-gray-100 mb-12"></h3>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
         {skills.map((skill) => (
-          <div key={skill.name} className="flex flex-col items-center">
+          <div
+            key={skill.name}
+            className="flex flex-col items-center text-center"
+          >
             <skill.icon className="text-5xl text-blue-600 dark:text-yellow-500 mb-4" />
             <h4 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
               {skill.name}

@@ -12,8 +12,9 @@ import ScrollProgress from "./components/ScrollProgress"; // ScrollProgress from
 import PageLoader from "./components/PageLoader"; // PageLoader from "./components/PageLoader";
 import Footer from "./components/Footer";
 import AboutMe from "./components/About";
-import Timeline from "./components/Timeline";
+// import Timeline from "./components/Timeline";
 import Experience from "./components/files/Experience";
+import TimeLine from "./components/TimeLineC";
 
 export default function App() {
   return (
@@ -28,8 +29,8 @@ export default function App() {
       <Skills />
       <Experience />
       <Projects />
-      <Timeline />
-
+      {/* <Timeline /> */}
+      <TimeLine events={TimeLine} />
       <Footer />
       {/* <Footer />
        */}
