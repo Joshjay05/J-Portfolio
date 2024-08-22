@@ -19,13 +19,19 @@ export default function Header() {
   return (
     <header className="p-4 md:p-6 flex justify-between items-center bg-gray-100 dark:bg-gray-900">
       <div
-        className="flex items-center space-x-4 md:space-x-6 logo"
+        className="flex items-center space-x-2 md:space-x-4"
         data-aos="zoom-in"
         data-aos-easing="linear"
         data-aos-duration="500"
       >
-        <img src={logo} alt="logo" />
-        <p>Joshjay.dev</p>
+        <img
+          src={logo}
+          alt="logo"
+          className="w-10 h-10 font-bold md:w-12 md:h-12 object-contain"
+        />
+        <p className="text-lg md:text-xl font-bold text-[#ffbd59] dark:text-gray-100">
+          Joshjay.dev
+        </p>
       </div>
       <nav className="hidden md:flex space-x-4 md:space-x-6">
         <a
