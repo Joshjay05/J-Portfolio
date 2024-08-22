@@ -13,8 +13,9 @@ import PageLoader from "./components/PageLoader"; // PageLoader from "./componen
 import Footer from "./components/Footer";
 import AboutMe from "./components/About";
 // import Timeline from "./components/Timeline";
-import Experience from "./components/files/Experience";
+import Experience from "./components/Experience";
 import TimeLine from "./components/TimeLineC";
+// import Intro from "./components/Intro";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <ScrollProgress />
       <MouseTracker />
       <Header />
+      {/* <Intro /> */}
       <Hero />
 
       <AboutMe />

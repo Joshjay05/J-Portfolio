@@ -6,6 +6,20 @@ import { events } from "./event";
 const TimeLine = () => {
   return (
     <div className="container mx-auto py-8">
+      <div className="text-center mb-12">
+        <h3
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          className="text-xl relative inline-block text-[#001b20] dark:text-white"
+        >
+          <span className="mr-5 text-[#ffbd59] font-bold">
+            Project Timeline
+          </span>
+          <span className="absolute left-[190px] bottom-[-10px] h-[1.5px] w-[900px] bg-[#f6a326]" />
+        </h3>
+      </div>
       <div className="relative border-l-2 border-gray-300">
         {events?.map((event, index) => (
           <div

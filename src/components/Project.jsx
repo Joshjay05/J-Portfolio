@@ -10,18 +10,18 @@ export default function Projects() {
         description: "An amazing web app built with React.",
         image: "/project1.jpg",
         link: "#",
-        timeline: "Jan 2023 - Mar 2023",
         repository: "https://github.com/username/project-one",
         liveLink: "https://project-one-live.com",
+        stacks: ["React", "JavaScript", "CSS", "HTML"], // Added tech stacks
       },
       {
         title: "Project Two",
         description: "A powerful tool developed using Node.js.",
         image: "/project2.jpg",
         link: "#",
-        timeline: "Apr 2023 - Jun 2023",
         repository: "https://github.com/username/project-two",
         liveLink: "https://project-two-live.com",
+        stacks: ["Node.js", "Express", "MongoDB"], // Added tech stacks
       },
       // Add more website projects as needed
     ],
@@ -31,28 +31,37 @@ export default function Projects() {
         description: "A fantastic mobile app built with Flutter.",
         image: "/app1.jpg",
         link: "#",
-        timeline: "Feb 2023 - May 2023",
         repository: "https://github.com/username/app-one",
         liveLink: "https://app-one-live.com",
+        stacks: ["Flutter", "Dart", "Firebase"], // Added tech stacks
       },
       {
         title: "App Two",
         description: "An innovative app developed with React Native.",
         image: "/app2.jpg",
         link: "#",
-        timeline: "Jul 2023 - Sep 2023",
         repository: "https://github.com/username/app-two",
         liveLink: "https://app-two-live.com",
+        stacks: ["React Native", "JavaScript", "Redux"], // Added tech stacks
       },
       // Add more apps as needed
     ],
   };
 
   return (
-    <section id="projects" className="py-20 bg-gray-100 dark:bg-gray-900">
-      <h3 className="text-3xl font-bold text-center text-gray-900 dark:text-gray-100 mb-12">
-        My Projects
-      </h3>
+    <section id="projects" className="py-20 px-6 bg-gray-100 dark:bg-gray-900">
+      <div className="text-center mb-12">
+        <h3
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          className="text-xl relative inline-block text-[#001b20] dark:text-white"
+        >
+          <span className="mr-5 text-[#ffbd59] font-bold">My projects</span>
+          <span className="absolute right-[190px] bottom-[-10px] h-[1.5px] w-[900px] bg-[#f6a326]" />
+        </h3>
+      </div>
       <div className="flex justify-center mb-8">
         <button
           className={`px-6 py-2 rounded-t-lg focus:outline-none ${
@@ -93,9 +102,14 @@ export default function Projects() {
               <p className="mt-2 text-gray-700 dark:text-gray-300">
                 {project.description}
               </p>
-              <p className="mt-2 text-gray-600 dark:text-gray-400">
-                <strong>Timeline:</strong> {project.timeline}
-              </p>
+              <div className="mt-2 text-gray-600 dark:text-gray-400">
+                <strong>Tech Stack:</strong>
+                <ul className="list-disc list-inside">
+                  {project.stacks.map((stack, i) => (
+                    <li key={i}>{stack}</li>
+                  ))}
+                </ul>
+              </div>
               <div className="mt-4 flex justify-between items-center">
                 <a
                   href={project.repository}

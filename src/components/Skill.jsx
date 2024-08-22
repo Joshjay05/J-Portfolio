@@ -66,9 +66,9 @@ export default function Skills() {
           data-aos-delay="300"
           className="text-xl relative inline-block text-white dark:text-[#001b20]"
         >
-          <span className="mr-5 text-[#ffbd59]">
+          <span className="mr-5 text-[#ffbd59] font-bold">
             {" "}
-            3. my &#123;Dev&#125; Skills
+            my &#123;Dev&#125; Skills
           </span>
           <span className="absolute right-[190px] bottom-[-10px] h-[1.5px] w-[900px] bg-[#f6a326]" />
         </h3>

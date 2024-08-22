@@ -1,4 +1,4 @@
-import ExpCard from "../ExpCard";
+import ExpCard from "./ExpCard";
 
 const Experience = () => {
   const experiences = [
@@ -39,7 +39,7 @@ const Experience = () => {
             data-aos-delay="300"
             className="text-xl relative inline-block text-[#001b20] dark:text-white"
           >
-            <span className="mr-5 text-[#ffbd59]">4.</span> Experience
+            <span className="mr-5 text-[#ffbd59] font-bold">Experience</span>
             <span className="absolute left-[190px] bottom-[-10px] h-[1.5px] w-[900px] bg-[#f6a326]" />
           </h3>
         </div>
