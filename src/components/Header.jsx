@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaSun, FaMoon, FaBars, FaTimes } from "react-icons/fa";
 import { motion } from "framer-motion";
+import logo from "../assets/logo.png";
 
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
@@ -17,9 +18,15 @@ export default function Header() {
 
   return (
     <header className="p-4 md:p-6 flex justify-between items-center bg-gray-100 dark:bg-gray-900">
-      <h1 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-gray-100">
-        Frontend Developer
-      </h1>
+      <div
+        // className={classes.logo}
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
+        <img src={logo} alt="logo" />
+        <p>Joshjay.dev</p>
+      </div>
       <nav className="hidden md:flex space-x-4 md:space-x-6">
         <a
           href="#about"

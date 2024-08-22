@@ -22,3 +22,15 @@ a {
     transform: translateY(0);
   }
 }
+.logo {
+  position: relative;
+}
+.logo p {
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+  color: #ffbd59;
+  position: absolute;
+  top: 64px;
+  left: 30px;
+  transform: skewY(-7deg);
+}
