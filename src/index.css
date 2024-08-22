@@ -34,3 +34,8 @@ a {
   left: 30px;
   transform: skewY(-7deg);
 }
+.logo img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}

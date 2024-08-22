@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <header className="p-4 md:p-6 flex justify-between items-center bg-gray-100 dark:bg-gray-900">
       <div
-        // className={classes.logo}
+        className={"flex items-center space-x-4 md:space-x-6 logo"}
         data-aos="zoom-in"
         data-aos-easing="linear"
         data-aos-duration="500"
