@@ -30,16 +30,16 @@ export const events = [
     title: "GWCTechSChoolAfrica Website",
     description: " ", // Updated `text` to `description`
     id: "faq4",
-    date: "Ongoing",
+    date: "June 06 2024",
     github: "https://github.com/Joshjay05/GWC", // Updated `githubLink` to `github`
-    live: "https://gwc-school-22dv.vercel.app/", // Updated `website` to `live`
+    live: "https://gwctechschoolafrica.com/", // Updated `website` to `live`
     organization: "GWCTechSchoolAfrica",
   },
   {
     title: "TMSaaS Admin-Dashboard",
     description: " ", // Updated `text` to `description`
     id: "faq5",
-    date: "Ongoing",
+    date: "",
     github: "https://github.com/Joshjay05/TmSaas", // Updated `githubLink` to `github`
     live: "https://tm-saas-28xp.vercel.app/", // Updated `website` to `live`
     organization: "TM30 Global Solutions",
@@ -54,22 +54,50 @@ export const events = [
     organization: "GWCTechSchoolAfrica",
   },
   {
-    title: "GWC-Teacher's Dashboard",
+    title: "Everywhere we go Consulting",
     description: "", // Updated `text` to `description`
     id: "faq7", // Updated id to be unique
-    date: "Ongoing",
-    github: "#", // Updated `githubLink` to `github`
-    live: "", // Updated `website` to `live`
-    organization: "GWC-TechSchool Africa",
+    date: "August 1 2024",
+    github: "https://github.com/Joshjay05/EduTravels", // Updated `githubLink` to `github`
+    live: "everywherewegoconsult.org", // Updated `website` to `live`
+    organization: "Everywhere we go Consulting",
   },
   {
-    title: "CHATTER APP",
+    title: "SHEW Foundation",
     description: "", // Updated `text` to `description`
     id: "faq8", // Updated id to be unique
     date: "Ongoing",
-    github: "https://github.com/Joshjay05/Chatter_Page", // Updated `githubLink` to `github`
-    live: "", // Updated `website` to `live`
+    github: "https://github.com/Joshjay05/SHEW", // Updated `githubLink` to `github`
+    live: "shewfoundation.com", // Updated `website` to `live`
     organization: "Personal",
   },
+  {
+    title: "Itshekiri Association",
+    description: "", // Updated `text` to `description`
+    id: "faq8", // Updated id to be unique
+    date: "Ongoing",
+    github: "https://github.com/Joshjay05/Association", // Updated `githubLink` to `github`
+    live: "https://association-omega.vercel.app/", // Updated `website` to `live`
+    organization: "Personal",
+  },
+  // {
+  //   title: "Inventory",
+  //   description: "", // Updated `text` to `description`
+  //   id: "faq8", // Updated id to be unique
+  //   date: "Ongoing",
+  //   github: "https://github.com/Joshjay05/Inventory", // Updated `githubLink` to `github`
+  //   live: "", // Updated `website` to `live`
+  //   organization: "Personal",
+  // },
+  // {
+  //   title: "Auth",
+  //   description: "", // Updated `text` to `description`
+  //   id: "faq8", // Updated id to be unique
+  //   date: "Ongoing",
+  //   github: "https://github.com/Joshjay05/Auth", // Updated `githubLink` to `github`
+  //   live: "", // Updated `website` to `live`
+  //   organization: "Personal",
+  // },
+
   // Add more events as needed
 ];

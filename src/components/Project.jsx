@@ -6,23 +6,67 @@ export default function Projects() {
   const projects = {
     website: [
       {
-        title: "Project One",
+        title: "TM30 Academy",
         description: "An amazing web app built with React.",
         image: "/project1.jpg",
-        link: "#",
-        repository: "https://github.com/username/project-one",
-        liveLink: "https://project-one-live.com",
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
         stacks: ["React", "JavaScript", "CSS", "HTML"], // Added tech stacks
       },
       {
-        title: "Project Two",
+        title: "Teens-Literacy Foundation",
         description: "A powerful tool developed using Node.js.",
         image: "/project2.jpg",
         link: "#",
-        repository: "https://github.com/username/project-two",
-        liveLink: "https://project-two-live.com",
-        stacks: ["Node.js", "Express", "MongoDB"], // Added tech stacks
+        // repository: "https://github.com/username/project-two",
+        // liveLink: "https://project-two-live.com",
+        stacks: ["React", "JavaScript", "CSS", "HTML"],
+        // stacks: ["Node.js", "Express", "MongoDB"], // Added tech stacks
       },
+      {
+        title: "GWCTechSChoolAfrica Website",
+        description: "An amazing web app built with React.",
+        image: "/project1.jpg",
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
+        stacks: [
+          "React",
+          "JavaScript",
+          "styledComponents",
+          "CSS",
+          "HTML",
+          "Material UI",
+        ], // Added tech stacks
+      },
+      {
+        title: "Everywherewegoconsulting",
+        description: "An amazing web app built with React.",
+        image: "/project1.jpg",
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
+
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
+        stacks: ["Next.js", "Typescript", "Tailwind CSS", "HTML"], // Added tech stacks
+      },
+      {
+        title: "Itsehekiri Association",
+        description: "An amazing web app built with React.",
+        image: "/project1.jpg",
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
+
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
+        stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"], // Added tech stacks
+      },
+
       // Add more website projects as needed
     ],
     apps: [
