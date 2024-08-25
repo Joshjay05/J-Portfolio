@@ -1,9 +1,10 @@
 import { Fragment, useEffect, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { BsWhatsapp, BsLinkedin, BsGithub } from "react-icons/bs";
-import { FaTwitter } from "react-icons/fa";
+// import { FaTwitter } from "react-icons/fa";
 import resume from "./files/resume.pdf";
 import { motion } from "framer-motion";
+import { CgMail } from "react-icons/cg";
 
 const Intro = () => {
   const [displayTypeAnime, setDisplayTypeAnime] = useState("none");
@@ -109,7 +110,7 @@ const Intro = () => {
                 rel="noopener noreferrer"
                 className="text-aliceblue hover:scale-110 transition-all duration-200 ease-in-out"
               >
-                <FaTwitter className="text-xl" />
+                <CgMail className="text-xl" />
               </a>
               <a
                 href="https://github.com/Joshjay05"
