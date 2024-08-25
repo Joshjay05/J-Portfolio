@@ -1,11 +1,11 @@
 import { useState } from "react";
-import consult from "../../public/everyconsult.jpg";
-import TM from "../../public/tm30.jpg";
-import gwc from "../../public/gwc.jpg";
-import shew from "../../public/shew.jpg";
-import teenslitracy from "../../public/teens.jpg";
-import coffee from "../../public/coffee.jpg";
-import association from "../../public/association.jpg";
+import consult from "/everyconsult.jpg";
+import TM from "/tm30.jpg";
+import gwc from "/gwc.jpg";
+import shew from "/shew.jpg";
+import teenslitracy from "/teens.jpg";
+import coffee from "/coffee.jpg";
+import association from "/association.jpg";
 export default function Projects() {
   const [activeTab, setActiveTab] = useState("website"); // Default to 'Website'
 

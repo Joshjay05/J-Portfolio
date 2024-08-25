@@ -1,5 +1,5 @@
 // import React from "react";
-import EachTimeline from "./EachTimeline";
+import EachTimeline from "./EachTimeLine";
 
 const Timeline = () => {
   const timelines = [
