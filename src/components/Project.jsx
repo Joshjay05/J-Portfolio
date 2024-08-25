@@ -1,5 +1,11 @@
 import { useState } from "react";
-
+import consult from "../../public/everyconsult.jpg";
+import TM from "../../public/tm30.jpg";
+import gwc from "../../public/gwc.jpg";
+import shew from "../../public/shew.jpg";
+import teenslitracy from "../../public/teens.jpg";
+import coffee from "../../public/coffee.jpg";
+import association from "../../public/association.jpg";
 export default function Projects() {
   const [activeTab, setActiveTab] = useState("website"); // Default to 'Website'
 
@@ -7,8 +13,8 @@ export default function Projects() {
     website: [
       {
         title: "Everywherewegoconsulting",
-        description: "An amazing web app built with React.",
-        image: "/project1.jpg",
+        description: "An Travel Agency Platform for all travels types.",
+        image: consult,
         // link: "#",
         // repository: "https://github.com/username/project-one",
         // liveLink: "https://project-one-live.com",
@@ -20,8 +26,9 @@ export default function Projects() {
       },
       {
         title: "TM30 Academy",
-        description: "An amazing web app built with React.",
-        image: "/project1.jpg",
+        description:
+          "An academic website for aspiring tech students to launch their careers.",
+        image: TM,
         // link: "#",
         // repository: "https://github.com/username/project-one",
         liveLink: "https://tmacademy.tm30.net/",
@@ -29,8 +36,9 @@ export default function Projects() {
       },
       {
         title: "GWCTechSChoolAfrica Website",
-        description: "An amazing web app built with React.",
-        image: "/project1.jpg",
+        description:
+          "An amazing tech schools for students who want to start or get a careers in Technology.",
+        image: gwc,
         // link: "#",
         repository: "https://gwctechschoolafrica.com/",
         // liveLink: "https://project-one-live.com",
@@ -45,32 +53,19 @@ export default function Projects() {
       },
       {
         title: "Teens-Literacy Foundation",
-        description: "A powerful tool developed using Node.js.",
-        image: "/project2.jpg",
+        description:
+          "An NGO website for young people tailored towards holistic development.",
+        image: teenslitracy,
         link: "#",
         // repository: "https://github.com/username/project-two",
         liveLink: "https://teensliteracyfoundation.org/",
         stacks: ["React", "JavaScript", "CSS", "HTML"],
         // stacks: ["Node.js", "Express", "MongoDB"],
       },
-
-      {
-        title: "shewfoundation",
-        description: "An amazing web app built with React.",
-        image: "/project1.jpg",
-        // link: "#",
-        // repository: "https://github.com/username/project-one",
-        // liveLink: "https://project-one-live.com",
-
-        // link: "#",
-        // repository: "https://github.com/username/project-one",
-        liveLink: "shewfoundation.com",
-        stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
-      },
       {
         title: "Itsehekiri Association",
-        description: "An amazing web app built with React.",
-        image: "/project1.jpg",
+        description: "An association website for Itsehekiris.",
+        image: association,
         // link: "#",
         // repository: "https://github.com/username/project-one",
         // liveLink: "https://project-one-live.com",
@@ -81,9 +76,23 @@ export default function Projects() {
         stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       },
       {
+        title: "shewfoundation",
+        description: "An NGO organization whose goal is to combat hunger",
+        image: shew,
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
+
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        liveLink: "shewfoundation.com",
+        stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
+      },
+
+      {
         title: "Coffe Shop",
-        description: "An amazing web app built with React.",
-        image: "/project1.jpg",
+        description: "An amazing coffee shop with a unique coffee menu.",
+        image: coffee,
         // link: "#",
         // repository: "https://github.com/username/project-one",
         // liveLink: "https://project-one-live.com",
