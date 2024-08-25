@@ -6,41 +6,6 @@ export default function Projects() {
   const projects = {
     website: [
       {
-        title: "TM30 Academy",
-        description: "An amazing web app built with React.",
-        image: "/project1.jpg",
-        // link: "#",
-        // repository: "https://github.com/username/project-one",
-        // liveLink: "https://project-one-live.com",
-        stacks: ["React", "JavaScript", "CSS", "HTML"], // Added tech stacks
-      },
-      {
-        title: "Teens-Literacy Foundation",
-        description: "A powerful tool developed using Node.js.",
-        image: "/project2.jpg",
-        link: "#",
-        // repository: "https://github.com/username/project-two",
-        // liveLink: "https://project-two-live.com",
-        stacks: ["React", "JavaScript", "CSS", "HTML"],
-        // stacks: ["Node.js", "Express", "MongoDB"], // Added tech stacks
-      },
-      {
-        title: "GWCTechSChoolAfrica Website",
-        description: "An amazing web app built with React.",
-        image: "/project1.jpg",
-        // link: "#",
-        // repository: "https://github.com/username/project-one",
-        // liveLink: "https://project-one-live.com",
-        stacks: [
-          "React",
-          "JavaScript",
-          "styledComponents",
-          "CSS",
-          "HTML",
-          "Material UI",
-        ], // Added tech stacks
-      },
-      {
         title: "Everywherewegoconsulting",
         description: "An amazing web app built with React.",
         image: "/project1.jpg",
@@ -50,8 +15,57 @@ export default function Projects() {
 
         // link: "#",
         // repository: "https://github.com/username/project-one",
-        // liveLink: "https://project-one-live.com",
+        liveLink: "everywherewegoconsult.org",
         stacks: ["Next.js", "Typescript", "Tailwind CSS", "HTML"], // Added tech stacks
+      },
+      {
+        title: "TM30 Academy",
+        description: "An amazing web app built with React.",
+        image: "/project1.jpg",
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        liveLink: "https://tmacademy.tm30.net/",
+        stacks: ["React", "JavaScript", "CSS", "HTML"],
+      },
+      {
+        title: "GWCTechSChoolAfrica Website",
+        description: "An amazing web app built with React.",
+        image: "/project1.jpg",
+        // link: "#",
+        repository: "https://gwctechschoolafrica.com/",
+        // liveLink: "https://project-one-live.com",
+        stacks: [
+          "React",
+          "JavaScript",
+          "styledComponents",
+          "CSS",
+          "HTML",
+          "Material UI",
+        ],
+      },
+      {
+        title: "Teens-Literacy Foundation",
+        description: "A powerful tool developed using Node.js.",
+        image: "/project2.jpg",
+        link: "#",
+        // repository: "https://github.com/username/project-two",
+        liveLink: "https://teensliteracyfoundation.org/",
+        stacks: ["React", "JavaScript", "CSS", "HTML"],
+        // stacks: ["Node.js", "Express", "MongoDB"],
+      },
+
+      {
+        title: "shewfoundation",
+        description: "An amazing web app built with React.",
+        image: "/project1.jpg",
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
+
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        liveLink: "shewfoundation.com",
+        stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       },
       {
         title: "Itsehekiri Association",
@@ -63,31 +77,44 @@ export default function Projects() {
 
         // link: "#",
         // repository: "https://github.com/username/project-one",
+        liveLink: "https://association-omega.vercel.app/",
+        stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
+      },
+      {
+        title: "Coffe Shop",
+        description: "An amazing web app built with React.",
+        image: "/project1.jpg",
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
         // liveLink: "https://project-one-live.com",
-        stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"], // Added tech stacks
+
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        liveLink: "https://coffee-shop-orcin-gamma.vercel.app/",
+        stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       },
 
       // Add more website projects as needed
     ],
     apps: [
-      {
-        title: "App One",
-        description: "A fantastic mobile app built with Flutter.",
-        image: "/app1.jpg",
-        link: "#",
-        repository: "https://github.com/username/app-one",
-        liveLink: "https://app-one-live.com",
-        stacks: ["Flutter", "Dart", "Firebase"], // Added tech stacks
-      },
-      {
-        title: "App Two",
-        description: "An innovative app developed with React Native.",
-        image: "/app2.jpg",
-        link: "#",
-        repository: "https://github.com/username/app-two",
-        liveLink: "https://app-two-live.com",
-        stacks: ["React Native", "JavaScript", "Redux"], // Added tech stacks
-      },
+      // {
+      //   title: "App One",
+      //   description: "A fantastic mobile app built with Flutter.",
+      //   image: "/app1.jpg",
+      //   link: "#",
+      //   repository: "https://github.com/username/app-one",
+      //   liveLink: "https://app-one-live.com",
+      //   stacks: ["Flutter", "Dart", "Firebase"], // Added tech stacks
+      // },
+      // {
+      //   title: "App Two",
+      //   description: "An innovative app developed with React Native.",
+      //   image: "/app2.jpg",
+      //   link: "#",
+      //   repository: "https://github.com/username/app-two",
+      //   liveLink: "https://app-two-live.com",
+      //   stacks: ["React Native", "JavaScript", "Redux"], // Added tech stacks
+      // },
       // Add more apps as needed
     ],
   };
@@ -155,14 +182,14 @@ export default function Projects() {
                 </ul>
               </div>
               <div className="mt-4 flex justify-between items-center">
-                <a
+                {/* <a
                   href={project.repository}
                   className="text-blue-600 dark:text-yellow-500 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   View Repository
-                </a>
+                </a> */}
                 <a
                   href={project.liveLink}
                   className="text-blue-600 dark:text-yellow-500 hover:underline"

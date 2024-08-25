@@ -80,6 +80,15 @@ export const events = [
     live: "https://association-omega.vercel.app/", // Updated `website` to `live`
     organization: "Personal",
   },
+  {
+    title: "Coffe Shop",
+    description: "", // Updated `text` to `description`
+    id: "faq8", // Updated id to be unique
+    date: "Ongoing",
+    github: "https://github.com/Joshjay05/coffee-shop", // Updated `githubLink` to `github`
+    live: "https://coffee-shop-orcin-gamma.vercel.app/", // Updated `website` to `live`
+    organization: "Personal",
+  },
   // {
   //   title: "Inventory",
   //   description: "", // Updated `text` to `description`
@@ -98,6 +107,6 @@ export const events = [
   //   live: "", // Updated `website` to `live`
   //   organization: "Personal",
   // },
-
+  // https://twitter.com/JoshuaOdelade
   // Add more events as needed
 ];
