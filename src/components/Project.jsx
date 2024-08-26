@@ -21,7 +21,7 @@ export default function Projects() {
 
         // link: "#",
         // repository: "https://github.com/username/project-one",
-        liveLink: "everywherewegoconsult.org",
+        liveLink: "https://edu-travels.vercel.app/",
         stacks: ["Next.js", "Typescript", "Tailwind CSS", "HTML"], // Added tech stacks
       },
       {
