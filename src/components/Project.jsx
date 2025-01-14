@@ -3,9 +3,12 @@ import consult from "/everyconsult.jpg";
 import TM from "/tm30.jpg";
 import gwc from "/gwc.jpg";
 import shew from "/shew.jpg";
+// import board from "/";
 import teenslitracy from "/teens.jpg";
 import coffee from "/coffee.jpg";
 import association from "/association.jpg";
+import board from "../assets/dashboard.png";
+
 export default function Projects() {
   const [activeTab, setActiveTab] = useState("website"); // Default to 'Website'
 
@@ -85,7 +88,7 @@ export default function Projects() {
 
         // link: "#",
         // repository: "https://github.com/username/project-one",
-        liveLink: "shewfoundation.com",
+        liveLink: "https://shewfoundation.com/",
         stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       },
 
@@ -101,6 +104,29 @@ export default function Projects() {
         // repository: "https://github.com/username/project-one",
         liveLink: "https://coffee-shop-orcin-gamma.vercel.app/",
         stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
+      },
+
+      {
+        title: "e-commerce Admin panel",
+        description:
+          "A centralized dashboard designed to help administrators manage and monitor various aspects of an online store efficiently",
+        image: board,
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        // liveLink: "https://project-one-live.com",
+
+        // link: "#",
+        // repository: "https://github.com/username/project-one",
+        liveLink: "",
+        stacks: [
+          "React",
+          "JavaScript",
+          "Tailwind CSS",
+          "HTML",
+          "Redux",
+          "tanstack Query",
+          // "React Router",
+        ],
       },
 
       // Add more website projects as needed

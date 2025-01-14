@@ -66,16 +66,16 @@ export const events = [
     title: "SHEW Foundation",
     description: "", // Updated `text` to `description`
     id: "faq8", // Updated id to be unique
-    date: "Ongoing",
+    date: "September 10 2024",
     github: "https://github.com/Joshjay05/SHEW", // Updated `githubLink` to `github`
-    live: "shewfoundation.com", // Updated `website` to `live`
+    live: "https://shewfoundation.com/", // Updated `website` to `live`
     organization: "Personal",
   },
   {
     title: "Itshekiri Association",
     description: "", // Updated `text` to `description`
     id: "faq8", // Updated id to be unique
-    date: "Ongoing",
+    // date: "Ongoing",
     github: "https://github.com/Joshjay05/Association", // Updated `githubLink` to `github`
     live: "https://association-omega.vercel.app/", // Updated `website` to `live`
     organization: "Personal",
@@ -84,10 +84,19 @@ export const events = [
     title: "Coffe Shop",
     description: "", // Updated `text` to `description`
     id: "faq8", // Updated id to be unique
-    date: "Ongoing",
+    // date: "Ongoing",
     github: "https://github.com/Joshjay05/coffee-shop", // Updated `githubLink` to `github`
     live: "https://coffee-shop-orcin-gamma.vercel.app/", // Updated `website` to `live`
     organization: "Personal",
+  },
+  {
+    title: "e-commerce Admin Panel",
+    description: "", // Updated `text` to `description`
+    id: "faq8", // Updated id to be unique
+    date: "Ongoing",
+    github: "", // Updated `githubLink` to `github`
+    live: "", // Updated `website` to `live`
+    organization: "Switchive",
   },
   // {
   //   title: "Inventory",

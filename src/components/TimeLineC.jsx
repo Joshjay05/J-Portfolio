@@ -61,7 +61,7 @@ const TimeLine = () => {
                     <span>GitHub</span>
                   </a>
                 )}
-                {event.live && (
+                {event?.live && (
                   <a
                     href={event.live}
                     target="_blank"

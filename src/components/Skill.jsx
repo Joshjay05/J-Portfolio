@@ -1,5 +1,9 @@
 // import React from 'react';
-import { FaReact, FaNodeJs, FaDatabase, FaGitAlt } from "react-icons/fa";
+import {
+  FaReact,
+  // FaNodeJs, FaDatabase,
+  FaGitAlt,
+} from "react-icons/fa";
 import {
   SiTailwindcss,
   SiJavascript,
@@ -15,12 +19,12 @@ export default function Skills() {
       icon: FaReact,
       description: "Building fast and efficient apps",
     },
-    {
-      name: "Node.js",
-      icon: FaNodeJs,
-      description: "Backend development with JavaScript",
-    },
-    { name: "MongoDB", icon: FaDatabase, description: "Database management" },
+    // {
+    //   name: "Node.js",
+    //   icon: FaNodeJs,
+    //   description: "Backend development with JavaScript",
+    // },
+    // { name: "MongoDB", icon: FaDatabase, description: "Database management" },
     {
       name: "Tailwind CSS",
       icon: SiTailwindcss,
