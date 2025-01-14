@@ -59,7 +59,7 @@ export const events = [
     id: "faq7", // Updated id to be unique
     date: "August 1 2024",
     github: "https://github.com/Joshjay05/EduTravels", // Updated `githubLink` to `github`
-    live: "everywherewegoconsult.org", // Updated `website` to `live`
+    live: "https://www.everywherewegoconsult.org/", // Updated `website` to `live`
     organization: "Everywhere we go Consulting",
   },
   {
