@@ -19,9 +19,8 @@ export default function About() {
               experiences and robust functionality.
             </li>
             <li>
-              My proficiency in testing platforms like
+              My proficiency in testing platforms like Jest,
               {/* Cypress and  */}
-              Jest,
               {/* CI/CD
               with GitHub,  */}
               and API integration guarantees high-quality, scalable solutions
