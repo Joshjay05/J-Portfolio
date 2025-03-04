@@ -1,12 +1,12 @@
 import { useState } from "react";
 import consult from "/everyconsult.jpg";
-import TM from "/tm30.jpg";
-import gwc from "/gwc.jpg";
-import shew from "/shew.jpg";
+import TM from "../assets/tm30.jpg";
+import gwc from "../assets/gwc.jpg";
+import shew from "../assets/shew.jpg";
 // import board from "/";
-import teenslitracy from "/teens.jpg";
-import coffee from "/coffee.jpg";
-import association from "/association.jpg";
+import teenslitracy from "../assets/teens.jpg";
+import coffee from "../assets/coffee.jpg";
+import association from "../assets/association.jpg";
 import board from "../assets/dashboard.png";
 
 export default function Projects() {
@@ -43,8 +43,8 @@ export default function Projects() {
           "An amazing tech schools for students who want to start or get a careers in Technology.",
         image: gwc,
         // link: "#",
-        repository: "https://gwctechschoolafrica.com/",
-        // liveLink: "https://project-one-live.com",
+        // repository: "https://gwctechschoolafrica.com/",
+        liveLink: "https://gwctechschoolafrica.com/",
         stacks: [
           "React",
           "JavaScript",

@@ -22,13 +22,13 @@ const Experience = () => {
     },
     {
       id: "ex4",
-      experience: "Financial Analyst",
+      experience: "Financial Analyst & IT Engineer",
       place: "Revelation Energy",
       pos: "Full-time",
     },
     {
       id: "ex5",
-      experience: "Frontend Engineer",
+      experience: "Frontend & QA Engineer",
       place: "Switchive",
       pos: "Full-time",
     },
