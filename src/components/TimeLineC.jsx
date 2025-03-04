@@ -87,8 +87,8 @@ TimeLine.propTypes = {
       title: PropTypes.string.isRequired,
       date: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
-      github: PropTypes.string, // Optional
-      live: PropTypes.string, // Optional
+      github: PropTypes.string,
+      live: PropTypes.string,
     })
   ).isRequired,
 };

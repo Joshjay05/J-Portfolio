@@ -10,7 +10,7 @@ import association from "../assets/association.jpg";
 import board from "../assets/dashboard.png";
 
 export default function Projects() {
-  const [activeTab, setActiveTab] = useState("website"); // Default to 'Website'
+  const [activeTab, setActiveTab] = useState("website");
 
   const projects = {
     website: [
@@ -18,14 +18,11 @@ export default function Projects() {
         title: "Everywherewegoconsulting",
         description: "An Travel Agency Platform for all travels types.",
         image: consult,
-        // link: "#",
-        // repository: "https://github.com/username/project-one",
-        // liveLink: "https://project-one-live.com",
 
         // link: "#",
         // repository: "https://github.com/username/project-one",
         liveLink: "https://www.everywherewegoconsult.org/",
-        stacks: ["Next.js", "Typescript", "Tailwind CSS", "HTML"], // Added tech stacks
+        stacks: ["Next.js", "Typescript", "Tailwind CSS", "HTML"],
       },
       {
         title: "TM30 Academy",
@@ -33,7 +30,7 @@ export default function Projects() {
           "An academic website for aspiring tech students to launch their careers.",
         image: TM,
         // link: "#",
-        // repository: "https://github.com/username/project-one",
+
         liveLink: "https://tmacademy.tm30.net/",
         stacks: ["React", "JavaScript", "CSS", "HTML"],
       },
@@ -60,21 +57,17 @@ export default function Projects() {
           "An NGO website for young people tailored towards holistic development.",
         image: teenslitracy,
         link: "#",
-        // repository: "https://github.com/username/project-two",
+        // repository: "",
         liveLink: "https://teensliteracyfoundation.org/",
         stacks: ["React", "JavaScript", "CSS", "HTML"],
-        // stacks: ["Node.js", "Express", "MongoDB"],
       },
       {
         title: "Itsehekiri Association",
         description: "An association website for Itsehekiris.",
         image: association,
-        // link: "#",
-        // repository: "https://github.com/username/project-one",
-        // liveLink: "https://project-one-live.com",
 
         // link: "#",
-        // repository: "https://github.com/username/project-one",
+        // repository: "",
         liveLink: "https://association-omega.vercel.app/",
         stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       },
@@ -82,12 +75,8 @@ export default function Projects() {
         title: "shewfoundation",
         description: "An NGO organization whose goal is to combat hunger",
         image: shew,
-        // link: "#",
-        // repository: "https://github.com/username/project-one",
-        // liveLink: "https://project-one-live.com",
 
-        // link: "#",
-        // repository: "https://github.com/username/project-one",
+        // repository: "",
         liveLink: "https://shewfoundation.com/",
         stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       },
@@ -97,11 +86,11 @@ export default function Projects() {
         description: "An amazing coffee shop with a unique coffee menu.",
         image: coffee,
         // link: "#",
-        // repository: "https://github.com/username/project-one",
+        // repository: "",
         // liveLink: "https://project-one-live.com",
 
         // link: "#",
-        // repository: "https://github.com/username/project-one",
+        // repository: "",
         liveLink: "https://coffee-shop-orcin-gamma.vercel.app/",
         stacks: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       },
@@ -112,11 +101,10 @@ export default function Projects() {
           "A centralized dashboard designed to help administrators manage and monitor various aspects of an online store efficiently",
         image: board,
         // link: "#",
-        // repository: "https://github.com/username/project-one",
-        // liveLink: "https://project-one-live.com",
+        // repository: "",
 
         // link: "#",
-        // repository: "https://github.com/username/project-one",
+        // repository: "",
         liveLink: "",
         stacks: [
           "React",
@@ -128,29 +116,26 @@ export default function Projects() {
           // "React Router",
         ],
       },
-
-      // Add more website projects as needed
     ],
     apps: [
       // {
-      //   title: "App One",
-      //   description: "A fantastic mobile app built with Flutter.",
+      //   title: "e",
+      //   description: "",
       //   image: "/app1.jpg",
       //   link: "#",
-      //   repository: "https://github.com/username/app-one",
-      //   liveLink: "https://app-one-live.com",
-      //   stacks: ["Flutter", "Dart", "Firebase"], // Added tech stacks
+      //   repository: "",
+      //   liveLink: "",
+      //   stacks: ["Flutter", "Dart", "Firebase"],
       // },
       // {
-      //   title: "App Two",
-      //   description: "An innovative app developed with React Native.",
+      //   title: "",
+      //   description: ".",
       //   image: "/app2.jpg",
       //   link: "#",
-      //   repository: "https://github.com/username/app-two",
-      //   liveLink: "https://app-two-live.com",
-      //   stacks: ["React Native", "JavaScript", "Redux"], // Added tech stacks
+      //   repository: "",
+      //   liveLink: "",
+      //   stacks: ["React Native", "JavaScript", "Redux"],
       // },
-      // Add more apps as needed
     ],
   };
 

@@ -66,7 +66,7 @@ const Timeline = () => {
     {
       title: "GWC-Teacher's Dashboard",
       text: "",
-      id: "faq7", // Updated to be unique
+      id: "faq7",
       direction: "left",
       // date: "Ongoing",
       githubLink: "#",
@@ -76,7 +76,7 @@ const Timeline = () => {
     {
       title: "CHATTER APP",
       text: "",
-      id: "faq8", // Updated to be unique
+      id: "faq8",
       direction: "right",
       date: "Ongoing",
       githubLink: "https://github.com/Joshjay05/Chatter_Page",
