@@ -21,7 +21,8 @@ export default function Projects() {
 
         // link: "#",
         // repository: "https://github.com/username/project-one",
-        liveLink: "https://www.everywherewegoconsult.org/",
+        // liveLink: "https://www.everywherewegoconsult.org/",
+        liveLink: "https://edu-travels.vercel.app/",
         stacks: ["Next.js", "Typescript", "Tailwind CSS", "HTML"],
       },
       {
@@ -31,7 +32,7 @@ export default function Projects() {
         image: TM,
         // link: "#",
 
-        liveLink: "https://tmacademy.tm30.net/",
+        liveLink: "https://tm30-academy.vercel.app/",
         stacks: ["React", "JavaScript", "CSS", "HTML"],
       },
       {
@@ -58,7 +59,9 @@ export default function Projects() {
         image: teenslitracy,
         link: "#",
         // repository: "",
-        liveLink: "https://teensliteracyfoundation.org/",
+        // liveLink: "https://teensliteracyfoundation.org/",
+        liveLink: "https://teens-litereacy.vercel.app/",
+
         stacks: ["React", "JavaScript", "CSS", "HTML"],
       },
       {
@@ -103,9 +106,9 @@ export default function Projects() {
         // link: "#",
         // repository: "",
 
-        // link: "#",
+        // live: "",
         // repository: "",
-        liveLink: "",
+        liveLink: "https://switchive.com/",
         stacks: [
           "React",
           "JavaScript",

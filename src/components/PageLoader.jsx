@@ -8,9 +8,8 @@ export default function PageLoader() {
   const [fadeOut, setFadeOut] = useState(false);
 
   useEffect(() => {
-    // After 1s, trigger fade-out
     const fadeTimer = setTimeout(() => setFadeOut(true), 1000);
-    // After 1.5s, remove from DOM
+
     const hideTimer = setTimeout(() => setVisible(false), 1500);
 
     return () => {
@@ -22,7 +21,6 @@ export default function PageLoader() {
   return (
     <AnimatePresence>
       {visible && (
-        // Container with entry + exit animations
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
