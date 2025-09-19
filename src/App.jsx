@@ -26,7 +26,7 @@ export default function App() {
       <Experience />
       <Projects />
       {/* <Timeline /> */}
-      <TimeLine events={TimeLine} />
+{/*       <TimeLine events={TimeLine} /> */}
       <Footer />
     </div>
   );
