@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import AboutMe from "./components/About";
 
 import Experience from "./components/Experience";
-import TimeLine from "./components/TimeLineC";
+// import TimeLine from "./components/TimeLineC";
 
 export default function App() {
   return (
