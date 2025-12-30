@@ -1,0 +1,200 @@
+// Spacing System
+$spacing-xs: 0.25rem; // 4px
+$spacing-sm: 0.5rem; // 8px
+$spacing-md: 1rem; // 16px
+$spacing-lg: 1.5rem; // 24px
+$spacing-xl: 2rem; // 32px
+$spacing-2xl: 3rem; // 48px
+$spacing-3xl: 4rem; // 64px
+$spacing-4xl: 6rem; // 96px
+
+// Border Radius
+$radius-none: 0;
+$radius-sm: 0.375rem; // 6px
+$radius-md: 0.5rem; // 8px
+$radius-lg: 0.75rem; // 12px
+$radius-xl: 1rem; // 16px
+$radius-2xl: 1.5rem; // 24px
+$radius-3xl: 2rem; // 32px
+$radius-full: 9999px;
+
+// Transitions & Animations
+$transition-fast: 0.15s ease;
+$transition-base: 0.3s ease;
+$transition-slow: 0.5s ease;
+$transition-slower: 0.7s ease;
+$transition-all: all 0.3s ease;
+
+$ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+$ease-in-out-cubic: cubic-bezier(0.65, 0, 0.35, 1);
+
+// Z-index Scale
+$z-base: 1;
+$z-dropdown: 10;
+$z-sticky: 20;
+$z-fixed: 30;
+$z-modal-backdrop: 40;
+$z-modal: 50;
+$z-popover: 60;
+$z-tooltip: 70;
+$z-notification: 80;
+
+// Breakpoints
+$breakpoint-xs: 475px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1536px;
+
+// Dark Mode Color Palette
+
+// Background Colors
+$dark-bg-primary: #0a0e27;
+$dark-bg-secondary: #141937;
+$dark-bg-tertiary: #1e2749;
+$dark-bg-quaternary: #252d5a;
+
+// Text Colors
+$dark-text-primary: #e6e9f0;
+$dark-text-secondary: #a7afc7;
+$dark-text-tertiary: #6b7492;
+$dark-text-quaternary: #4a5270;
+
+// Accent Colors
+$dark-accent-primary: #00d9ff;
+$dark-accent-secondary: #7b2cbf;
+$dark-accent-tertiary: #ff006e;
+
+// Border & Divider
+$dark-border: #2a3155;
+$dark-border-light: #3a4165;
+
+// Light Mode Color Palette
+
+// Background Colors
+$light-bg-primary: #ffffff;
+$light-bg-secondary: #f8f9fc;
+$light-bg-tertiary: #e8ebf7;
+$light-bg-quaternary: #d1d5e4;
+
+// Text Colors
+$light-text-primary: #1a1d2e;
+$light-text-secondary: #4a5270;
+$light-text-tertiary: #6b7492;
+$light-text-quaternary: #8b92ae;
+
+// Accent Colors
+$light-accent-primary: #0066ff;
+$light-accent-secondary: #7b2cbf;
+$light-accent-tertiary: #ff006e;
+
+// Border & Divider
+$light-border: #d1d5e4;
+$light-border-light: #e1e4f0;
+
+// Semantic Colors
+
+// Success
+$success-dark: #10b981;
+$success-light: #059669;
+
+// Error
+$error-dark: #ef4444;
+$error-light: #dc2626;
+
+// Warning
+$warning-dark: #f59e0b;
+$warning-light: #d97706;
+
+// Info
+$info-dark: #3b82f6;
+$info-light: #2563eb;
+
+// Shadows
+$shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -4px rgba(0, 0, 0, 0.1);
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  0 8px 10px -6px rgba(0, 0, 0, 0.1);
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+// Glow Shadows (for dark mode)
+$shadow-glow: 0 0 20px rgba(0, 217, 255, 0.3);
+$shadow-glow-md: 0 0 30px rgba(0, 217, 255, 0.4);
+$shadow-glow-lg: 0 0 40px rgba(0, 217, 255, 0.5);
+$shadow-glow-xl: 0 0 60px rgba(0, 217, 255, 0.6);
+
+// Inner shadows
+$shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+$shadow-inner-lg: inset 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+// Typography
+$font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+$font-mono: "JetBrains Mono", "Fira Code", "Courier New", monospace;
+$font-display: "Clash Display", "Inter", system-ui, sans-serif;
+
+// Font Weights
+$font-thin: 100;
+$font-extralight: 200;
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-extrabold: 800;
+$font-black: 900;
+
+// Line Heights
+$leading-none: 1;
+$leading-tight: 1.25;
+$leading-snug: 1.375;
+$leading-normal: 1.5;
+$leading-relaxed: 1.625;
+$leading-loose: 2;
+
+// Letter Spacing
+$tracking-tighter: -0.05em;
+$tracking-tight: -0.025em;
+$tracking-normal: 0;
+$tracking-wide: 0.025em;
+$tracking-wider: 0.05em;
+$tracking-widest: 0.1em;
+
+// Opacity Scale
+$opacity-0: 0;
+$opacity-5: 0.05;
+$opacity-10: 0.1;
+$opacity-20: 0.2;
+$opacity-25: 0.25;
+$opacity-30: 0.3;
+$opacity-40: 0.4;
+$opacity-50: 0.5;
+$opacity-60: 0.6;
+$opacity-70: 0.7;
+$opacity-75: 0.75;
+$opacity-80: 0.8;
+$opacity-90: 0.9;
+$opacity-95: 0.95;
+$opacity-100: 1;
+
+// Blur Values
+$blur-none: 0;
+$blur-sm: 4px;
+$blur-base: 8px;
+$blur-md: 12px;
+$blur-lg: 16px;
+$blur-xl: 24px;
+$blur-2xl: 40px;
+$blur-3xl: 64px;
+
+// Container Sizes
+$container-xs: 475px;
+$container-sm: 640px;
+$container-md: 768px;
+$container-lg: 1024px;
+$container-xl: 1280px;
+$container-2xl: 1536px;
