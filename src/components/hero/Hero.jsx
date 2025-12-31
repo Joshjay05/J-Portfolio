@@ -4,7 +4,7 @@ import {
   Github,
   Linkedin,
   Mail,
-  ExternalLink,
+  // ExternalLink,
 } from "lucide-react";
 import { PERSONAL_INFO } from "../../constants";
 
@@ -31,6 +31,7 @@ const Hero = () => {
       id="hero"
       className="hero min-h-screen flex items-center justify-center relative px-6 pt-24 pb-12 overflow-hidden"
     >
+      {/* Animated Background */}
       <div className="absolute inset-0 -z-10">
         <motion.div
           animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
@@ -84,10 +85,11 @@ const Hero = () => {
           <span className="dark:text-dark-accent-primary text-light-accent-primary font-semibold">
             {PERSONAL_INFO.yearsOfExperience} years
           </span>{" "}
-          of experience building user-centric web applications. Currently
-          crafting accessible, performant products at{" "}
+          of experience building user-centric web applications. crafting
+          accessible, performant products
+          {/* at{" "} */}
           <span className="dark:text-dark-accent-primary text-light-accent-primary font-semibold">
-            Switchive
+            {/* Switchive */}
           </span>
           .
         </motion.p>
@@ -138,14 +140,14 @@ const Hero = () => {
           >
             <Mail size={24} />
           </a>
-          <a
+          {/* <a
             href={PERSONAL_INFO.portfolio}
             target="_blank"
             rel="noopener noreferrer"
             className="dark:text-dark-text-secondary text-light-text-secondary hover:dark:text-dark-accent-primary hover:text-light-accent-primary transition-all duration-300 hover:-translate-y-1"
           >
             <ExternalLink size={24} />
-          </a>
+          </a> */}
           <div className="w-24 h-px dark:bg-dark-border bg-light-border ml-2" />
         </motion.div>
       </motion.div>

@@ -8,7 +8,7 @@ const About = () => {
   const technologies = [
     "React & Next.js",
     "TypeScript",
-    "React Native",
+    // "React Native",
     "Redux & Zustand",
     "Tailwind CSS",
     "TanStack Query",
@@ -48,9 +48,11 @@ const About = () => {
             </p>
 
             <p className="leading-relaxed">
-              My journey in web development started during my university days,
-              and I&#39;ve since accumulated{" "}
-              <span className="dark:text-dark-text-primary text-light-text-primary font-semibold">
+              {/* My journey in web development started during my university days, */}
+              {/* and  */}
+              I&#39;ve
+              {/* accumulated{" "} */}
+              <span className="dark:text-dark-text-primary text-light-text-primary font-semibold px-2">
                 {PERSONAL_INFO.yearsOfExperience} years of professional
                 experience
               </span>{" "}
@@ -58,7 +60,7 @@ const About = () => {
               enhancing internal processes and building feature-rich
               applications at{" "}
               <span className="dark:text-dark-accent-primary text-light-accent-primary font-semibold">
-                Switchive
+                Hoperays
               </span>
               .
             </p>
@@ -92,7 +94,6 @@ const About = () => {
             </ul>
           </motion.div>
 
-          {/* Profile Image/Card - Takes 1 column on desktop, full width on mobile */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={inView ? { opacity: 1, scale: 1 } : {}}
