@@ -189,15 +189,15 @@ export const PROJECTS = {
       live: "#",
       videoUrl: "",
     },
-    {
-      id: 2,
-      title: "VidaBridge",
-      description:
-        "Health platform designed to bridge healthcare services with modern technology solutions (Ongoing).",
-      technologies: ["React", "TypeScript", "TanStack Query", "Tailwind CSS"],
-      live: "#",
-      videoUrl: "",
-    },
+    // {
+    //   id: 2,
+    //   title: "VidaBridge",
+    //   description:
+    //     "Health platform designed to bridge healthcare services with modern technology solutions (Ongoing).",
+    //   technologies: ["React", "TypeScript", "TanStack Query", "Tailwind CSS"],
+    //   live: "#",
+    //   videoUrl: "",
+    // },
 
     {
       id: 3,

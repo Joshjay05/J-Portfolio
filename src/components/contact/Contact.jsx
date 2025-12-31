@@ -26,14 +26,12 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500));
 
     setIsSubmitting(false);
     setIsSuccess(true);
     setFormData({ name: "", email: "", message: "" });
 
-    // Reset success message after 5 seconds
     setTimeout(() => setIsSuccess(false), 5000);
   };
 
@@ -67,7 +65,6 @@ const Contact = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 mt-16">
-          {/* Contact Info - Fully Responsive */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -135,7 +132,6 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Social Links */}
             <div className="pt-8">
               <p className="text-sm dark:text-dark-text-tertiary text-light-text-tertiary font-mono mb-4">
                 Connect with me
