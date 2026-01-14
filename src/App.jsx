@@ -71,7 +71,6 @@ function App() {
 
       <Navbar theme={theme} />
 
-      {/* Main Content */}
       <main className="relative z-10">
         <Hero />
         <About />
@@ -81,10 +80,8 @@ function App() {
         <Contact />
       </main>
 
-      {/* Footer */}
       <Footer />
 
-      {/* Floating UI Elements */}
       <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
       <ScrollToTop />
     </div>
