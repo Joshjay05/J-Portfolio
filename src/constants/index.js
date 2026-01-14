@@ -186,18 +186,18 @@ export const PROJECTS = {
         "Tailwind CSS",
         "Redux",
       ],
-      live: "#",
+      live: "https://www.mylabscope.com/",
       videoUrl: "",
     },
-    // {
-    //   id: 2,
-    //   title: "VidaBridge",
-    //   description:
-    //     "Health platform designed to bridge healthcare services with modern technology solutions (Ongoing).",
-    //   technologies: ["React", "TypeScript", "TanStack Query", "Tailwind CSS"],
-    //   live: "#",
-    //   videoUrl: "",
-    // },
+    {
+      id: 2,
+      title: "VidaBridge",
+      description:
+        "Health platform designed to bridge healthcare services with modern technology solutions (Ongoing).",
+      technologies: ["React", "TypeScript", "TanStack Query", "Tailwind CSS"],
+      live: "https://www.vidabridge.com/",
+      videoUrl: "",
+    },
 
     {
       id: 3,
@@ -205,7 +205,7 @@ export const PROJECTS = {
       description:
         "Modern photography website showcasing stunning portfolios with elegant design and smooth user experience.",
       technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
-      live: "#",
+      live: "https://candela-studios-website-519s.vercel.app",
       videoUrl: "",
     },
     {
@@ -220,7 +220,7 @@ export const PROJECTS = {
         "Redux",
         "TanStack Query",
       ],
-      live: "#",
+      live: "https://switchive.com/",
       videoUrl: "",
     },
     {
@@ -235,7 +235,7 @@ export const PROJECTS = {
         "Material-UI",
         "HTML",
       ],
-      live: "#",
+      live: "https://gwctechschoolafrica.com/",
       videoUrl: "",
     },
     {
@@ -244,7 +244,7 @@ export const PROJECTS = {
       description:
         "Academic website for aspiring tech students to launch their careers with project-based learning.",
       technologies: ["React", "JavaScript", "CSS", "HTML"],
-      live: "#",
+      live: "https://tm30-academy.vercel.app/",
       videoUrl: "",
     },
     {
@@ -253,7 +253,7 @@ export const PROJECTS = {
       description:
         "Travel agency platform for all types of travel services and bookings.",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "HTML"],
-      live: "#",
+      live: "https://edu-travels.vercel.app/",
       videoUrl: "",
     },
     {
@@ -262,34 +262,34 @@ export const PROJECTS = {
       description:
         "Association website celebrating and promoting Itsehekiri heritage and culture.",
       technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
-      live: "#",
+      live: "https://association-omega.vercel.app/",
       videoUrl: "",
     },
     {
       id: 9,
-      title: "Teens Literacy Foundation",
+      title: "Hoperays Health",
       description:
         "NGO website for young people tailored towards holistic development and literacy.",
       technologies: ["React", "JavaScript", "CSS", "HTML"],
-      live: "#",
+      live: "https://www.hoperays.org/",
       videoUrl: "",
     },
+    // {
+    //   id: 10,
+    //   title: "Shew Foundation",
+    //   description:
+    //     "NGO organization website dedicated to combating hunger and enriching lives.",
+    //   technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
+    //   live: "https://www.shewfoundation.com/",
+    //   videoUrl: "",
+    // },
     {
       id: 10,
-      title: "Shew Foundation",
-      description:
-        "NGO organization website dedicated to combating hunger and enriching lives.",
-      technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
-      live: "#",
-      videoUrl: "",
-    },
-    {
-      id: 11,
       title: "Coffee Shop",
       description:
         "Amazing coffee shop website with a unique coffee menu and ordering system.",
       technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
-      live: "#",
+      live: "https://coffee-shop-orcin-gamma.vercel.app/",
       videoUrl: "",
     },
   ],
