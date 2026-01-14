@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export const useTheme = () => {
+const useTheme = () => {
   const getInitialTheme = () => {
     if (typeof window !== "undefined") {
       const savedTheme = localStorage.getItem("theme");
@@ -47,3 +47,5 @@ export const useTheme = () => {
 
   return { theme, toggleTheme, setTheme };
 };
+
+export default useTheme;
