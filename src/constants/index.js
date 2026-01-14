@@ -186,7 +186,7 @@ export const PROJECTS = {
         "Tailwind CSS",
         "Redux",
       ],
-      live: "https://www.mylabscope.com/",
+      live: "#",
       videoUrl: "",
     },
     {
@@ -195,7 +195,7 @@ export const PROJECTS = {
       description:
         "Health platform designed to bridge healthcare services with modern technology solutions (Ongoing).",
       technologies: ["React", "TypeScript", "TanStack Query", "Tailwind CSS"],
-      live: "https://www.vidabridge.com/",
+      live: "#",
       videoUrl: "",
     },
 
