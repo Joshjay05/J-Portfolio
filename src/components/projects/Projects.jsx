@@ -4,18 +4,23 @@ import { useState } from "react";
 import {
   ExternalLink,
   Code2,
-  FileCode,
-  FileType,
-  Zap,
   Palette,
-  Database,
-  PackageOpen,
+  // PackageOpen,
   Layout,
   Layers,
   ChevronDown,
   ChevronUp,
 } from "lucide-react";
+import { FaReact } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+
+import { RiTailwindCssFill } from "react-icons/ri";
+// import { TbBrandVite } from "react-icons/tb";
+import { SiRedux } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 import { PROJECTS } from "../../constants";
+import { LuFlower } from "react-icons/lu";
 
 const Projects = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
@@ -26,13 +31,13 @@ const Projects = () => {
     : PROJECTS.featured.slice(0, 4);
 
   const techIconMap = {
-    React: Code2,
-    "Next.js": Zap,
-    TypeScript: FileType,
-    JavaScript: FileCode,
-    "Tailwind CSS": Palette,
-    Redux: Database,
-    "TanStack Query": PackageOpen,
+    React: FaReact,
+    "Next.js": SiNextdotjs,
+    TypeScript: SiTypescript,
+    JavaScript: SiJavascript,
+    "Tailwind CSS": RiTailwindCssFill,
+    Redux: SiRedux,
+    "TanStack Query": LuFlower,
     "Material-UI": Layout,
     HTML: Layers,
     CSS: Palette,

@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { PERSONAL_INFO } from "../../constants";
 
+import jay from "../../assets/josh.jpeg";
 const About = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   const technologies = [
     "React & Next.js",
     "TypeScript",
-    // "React Native",
     "Redux & Zustand",
     "Tailwind CSS",
     "TanStack Query",
@@ -48,10 +48,7 @@ const About = () => {
             </p>
 
             <p className="leading-relaxed">
-              {/* My journey in web development started during my university days, */}
-              {/* and  */}
               I&#39;ve
-              {/* accumulated{" "} */}
               <span className="dark:text-dark-text-primary text-light-text-primary font-semibold px-2">
                 {PERSONAL_INFO.yearsOfExperience} years of professional
                 experience
@@ -100,13 +97,14 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="relative group"
           >
-            {/* Main Card */}
-            <div className="relative rounded-2xl overflow-hidden aspect-square glass-card flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
-              <div className="w-40 h-40 rounded-full bg-gradient-to-br dark:from-dark-accent-primary/30 dark:to-dark-accent-secondary/30 from-light-accent-primary/30 to-light-accent-secondary/30 flex items-center justify-center">
-                <span className="text-6xl font-bold text-gradient">JJ</span>
-              </div>
+            <div className="relative rounded-2xl overflow-hidden aspect-16/9 glass-card group-hover:scale-105 transition-transform duration-300">
+              <img
+                src={jay}
+                alt="Jay - Frontend Developer"
+                className="w-full h-full object-center"
+              />
 
-              <div className="absolute inset-0 dark:bg-dark-accent-primary/20 bg-light-accent-primary/20 mix-blend-multiply transition-opacity duration-300 group-hover:opacity-0" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
 
             <div className="absolute -inset-2 border-2 dark:border-dark-accent-primary border-light-accent-primary rounded-2xl -z-10 translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300" />
