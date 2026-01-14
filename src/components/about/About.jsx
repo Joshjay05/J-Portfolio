@@ -106,7 +106,6 @@ const About = () => {
                 <span className="text-6xl font-bold text-gradient">JJ</span>
               </div>
 
-              {/* Overlay Effect */}
               <div className="absolute inset-0 dark:bg-dark-accent-primary/20 bg-light-accent-primary/20 mix-blend-multiply transition-opacity duration-300 group-hover:opacity-0" />
             </div>
 
