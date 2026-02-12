@@ -46,63 +46,61 @@ export const SKILLS = {
     },
     {
       name: "Next.js",
-      level: 90,
       icon: "Next",
+      level: 90,
       experience: "3+ years",
       proficiency: "Advanced",
     },
     {
       name: "Tailwind CSS",
-      level: 95,
       icon: "Tailwind",
+      level: 95,
       experience: "3+ years",
       proficiency: "Expert",
     },
     {
       name: "Zustand",
-      level: 85,
       icon: "Zustand",
+      level: 85,
       experience: "2+ years",
       proficiency: "Advanced",
     },
   ],
-
   backend: [
     {
       name: "REST APIs",
-      level: 90,
       icon: "Database",
+      level: 90,
       experience: "3+ years",
       proficiency: "Advanced",
     },
   ],
-
   tools: [
     {
       name: "Git & GitHub",
-      level: 90,
       icon: "GitBranch",
+      level: 90,
       experience: "4+ years",
       proficiency: "Advanced",
     },
     {
       name: "Responsive Design",
-      level: 95,
       icon: "Responsive",
+      level: 95,
       experience: "4+ years",
       proficiency: "Expert",
     },
     {
       name: "Figma",
-      level: 95,
       icon: "Figma",
+      level: 95,
       experience: "4+ years",
       proficiency: "Expert",
     },
     {
       name: "Vite",
-      level: 85,
       icon: "Vite",
+      level: 85,
       experience: "3+ years",
       proficiency: "Advanced",
     },
@@ -130,7 +128,7 @@ export const EXPERIENCES = [
     period: "May 2024 - Feb 2025",
     current: false,
     description: [
-      "Co-developed the administrative dashboard for a crypto-payment e-commerce platform, specifically engineering the end-to-end product management module",
+      "Co-developed the administrative dashboard for a crypto-payment e-commerce platform, specifically engineering the end-to-end product management module.",
     ],
     technologies: ["React", "JavaScript", "TanStack Query", "Tailwind CSS"],
   },
@@ -186,8 +184,12 @@ export const PROJECTS = {
         "Tailwind CSS",
         "Redux",
       ],
-      live: "#",
-      videoUrl: "",
+      live: "https://mylabscope.com",
+      media: {
+        type: "video",
+        src: "/videos/labscope.mp4",
+        poster: "/images/labscope.png",
+      },
     },
     {
       id: 2,
@@ -195,21 +197,37 @@ export const PROJECTS = {
       description:
         "Health platform designed to bridge healthcare services with modern technology solutions (Ongoing).",
       technologies: ["React", "TypeScript", "TanStack Query", "Tailwind CSS"],
-      live: "#",
-      videoUrl: "",
+      live: "https://vidabridge.com",
+      media: {
+        type: "image",
+        src: "/images/vida.png",
+      },
     },
-
     {
       id: 3,
+      title: "Hoperays Health",
+      description: "Hoperays official website.",
+      technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
+      live: "https://www.hoperays.org/",
+      media: {
+        type: "video",
+        src: "/videos/vida.mp4",
+      },
+    },
+    {
+      id: 4,
       title: "Candela Photography",
       description:
         "Modern photography website showcasing stunning portfolios with elegant design and smooth user experience.",
       technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       live: "https://candela-studios-website-519s.vercel.app",
-      videoUrl: "",
+      media: {
+        type: "image",
+        src: "/images/candela.png",
+      },
     },
     {
-      id: 4,
+      id: 5,
       title: "E-Commerce Admin Panel",
       description:
         "Centralized dashboard designed to help administrators manage and monitor various aspects of an online store efficiently.",
@@ -221,104 +239,89 @@ export const PROJECTS = {
         "TanStack Query",
       ],
       live: "https://switchive.com/",
-      videoUrl: "",
+      media: {
+        type: "video",
+        src: "/videos/admin-panel.mp4",
+        poster: "/images/admin-panel.png",
+      },
     },
     {
-      id: 5,
+      id: 6,
       title: "GWCTechSchoolAfrica",
       description:
         "Tech school website for students who want to start or advance their careers in technology.",
       technologies: [
         "React",
         "JavaScript",
-        "styledComponents",
+        "styled-components",
         "Material-UI",
         "HTML",
       ],
       live: "https://gwctechschoolafrica.com/",
-      videoUrl: "",
+      media: {
+        type: "image",
+        src: "/images/gwc.jpg",
+      },
     },
     {
-      id: 6,
+      id: 7,
       title: "TM30 Academy",
       description:
         "Academic website for aspiring tech students to launch their careers with project-based learning.",
       technologies: ["React", "JavaScript", "CSS", "HTML"],
       live: "https://tm30-academy.vercel.app/",
-      videoUrl: "",
+      media: {
+        type: "image",
+        src: "/images/tm30.jpg",
+      },
     },
     {
-      id: 7,
+      id: 8,
       title: "Everywherewegoconsulting",
       description:
         "Travel agency platform for all types of travel services and bookings.",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "HTML"],
       live: "https://edu-travels.vercel.app/",
-      videoUrl: "",
+      media: {
+        type: "image",
+        src: "/images/everyconsult.jpg",
+      },
     },
     {
-      id: 8,
+      id: 9,
       title: "Itsehekiri Association",
       description:
         "Association website celebrating and promoting Itsehekiri heritage and culture.",
       technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       live: "https://association-omega.vercel.app/",
-      videoUrl: "",
+      media: {
+        type: "image",
+        src: "/images/association.jpg",
+      },
     },
-    {
-      id: 9,
-      title: "Hoperays Health",
-      description:
-        "NGO website for young people tailored towards holistic development and literacy.",
-      technologies: ["React", "JavaScript", "CSS", "HTML"],
-      live: "https://www.hoperays.org/",
-      videoUrl: "",
-    },
-    // {
-    //   id: 10,
-    //   title: "Shew Foundation",
-    //   description:
-    //     "NGO organization website dedicated to combating hunger and enriching lives.",
-    //   technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
-    //   live: "https://www.shewfoundation.com/",
-    //   videoUrl: "",
-    // },
     {
       id: 10,
       title: "Coffee Shop",
       description:
-        "Amazing coffee shop website with a unique coffee menu and ordering system.",
+        "Coffee shop website with a unique coffee menu and ordering system.",
       technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       live: "https://coffee-shop-orcin-gamma.vercel.app/",
-      videoUrl: "",
+      media: {
+        type: "image",
+        src: "/images/coffee.jpg",
+      },
     },
   ],
 };
 
-// export const EDUCATION = {
-//   degree: "Bachelor of Science",
-//   field: "Geology",
-//   institution: "Obafemi Awolowo University",
-//   year: "2020",
-//   location: "Ile-Ife, Nigeria",
-// };
-
 export const SOCIAL_LINKS = [
-  {
-    name: "GitHub",
-    url: "https://github.com/Joshjay05",
-    icon: "Github",
-  },
+  { name: "GitHub", url: "https://github.com/Joshjay05", icon: "Github" },
   {
     name: "LinkedIn",
     url: "https://linkedin.com/in/jesulona-joshua",
     icon: "Linkedin",
   },
-  {
-    name: "Email",
-    url: "mailto:odeladejesulona@gmail.com",
-    icon: "Mail",
-  },
+  { name: "Email", url: "mailto:odeladejesulona@gmail.com", icon: "Mail" },
   {
     name: "Portfolio",
     url: "https://j-portfolio-lyart.vercel.app/",
