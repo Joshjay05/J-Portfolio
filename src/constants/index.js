@@ -220,7 +220,7 @@ export const PROJECTS = {
       description:
         "Modern photography website showcasing stunning portfolios with elegant design and smooth user experience.",
       technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
-      live: "https://candela-studios-website-519s.vercel.app",
+      live: "https://candela-studios-website-f9o9.vercel.app",
       media: {
         type: "image",
         src: "/images/candela.png",
