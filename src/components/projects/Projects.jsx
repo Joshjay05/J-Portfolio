@@ -31,7 +31,7 @@ const Placeholder = () => (
   </div>
 );
 
-/* ---------------- Media Renderer ---------------- */
+/*  Media Renderer */
 
 function ProjectMedia({ project }) {
   const videoRef = useRef(null);
@@ -40,7 +40,7 @@ function ProjectMedia({ project }) {
 
   const { type, src, poster } = project.media;
 
-  /* ---------- IMAGE OR GIF ---------- */
+  /* IMAGE OR GIF */
   if (type === "image" || type === "gif") {
     return (
       <img
@@ -53,7 +53,7 @@ function ProjectMedia({ project }) {
     );
   }
 
-  /* ---------- VIDEO (PLAY ON HOVER) ---------- */
+  /* VIDEO (PLAY ON HOVER)  */
 
   const handleEnter = async () => {
     const vid = videoRef.current;
@@ -63,7 +63,7 @@ function ProjectMedia({ project }) {
       vid.currentTime = 0;
       await vid.play();
     } catch {
-      // autoplay restrictions ignored
+      
     }
   };
 
