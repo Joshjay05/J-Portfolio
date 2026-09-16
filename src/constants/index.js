@@ -200,7 +200,7 @@ export const PROJECTS = {
       live: "https://vidabridge.com",
       media: {
         type: "image",
-        src: "/images/vida.png",
+        src: "/images/vidabrige.png",
       },
     },
     {
