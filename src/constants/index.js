@@ -219,7 +219,7 @@ export const PROJECTS = {
       title: "MotionTravelConsult",
       description:
         "Travel agency platform for all types of travel services and bookings.",
-      technologies: ["React.js", "JavaScript", "Tailwind CSS", "HTML"],
+      technologies: ["React", "JavaScript", "Tailwind CSS", "HTML"],
       live: "https://www.motiontravelconsult.com/",
       media: {
         type: "image",
