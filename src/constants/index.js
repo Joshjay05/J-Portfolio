@@ -223,7 +223,7 @@ export const PROJECTS = {
       live: "https://www.motiontravelconsult.com/",
       media: {
         type: "image",
-        src: "/images/motion.jpg",
+        src: "/images/motion.png",
       },
     },
     {
