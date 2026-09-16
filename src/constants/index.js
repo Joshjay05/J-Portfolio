@@ -214,8 +214,20 @@ export const PROJECTS = {
         src: "/videos/vida.mp4",
       },
     },
-    {
+      {
       id: 4,
+      title: "MotionTravelConsult",
+      description:
+        "Travel agency platform for all types of travel services and bookings.",
+      technologies: ["React.js", "JavaScript", "Tailwind CSS", "HTML"],
+      live: "https://www.motiontravelconsult.com/",
+      media: {
+        type: "image",
+        src: "/images/motion.jpg",
+      },
+    },
+    {
+      id: 5,
       title: "Candela Photography",
       description:
         "Modern photography website showcasing stunning portfolios with elegant design and smooth user experience.",
@@ -227,7 +239,7 @@ export const PROJECTS = {
       },
     },
     {
-      id: 5,
+      id: 6,
       title: "E-Commerce Admin Panel",
       description:
         "Centralized dashboard designed to help administrators manage and monitor various aspects of an online store efficiently.",
@@ -246,7 +258,7 @@ export const PROJECTS = {
       },
     },
     {
-      id: 6,
+      id: 7,
       title: "GWCTechSchoolAfrica",
       description:
         "Tech school website for students who want to start or advance their careers in technology.",
@@ -264,7 +276,7 @@ export const PROJECTS = {
       },
     },
     {
-      id: 7,
+      id: 8,
       title: "TM30 Academy",
       description:
         "Academic website for aspiring tech students to launch their careers with project-based learning.",
@@ -276,7 +288,7 @@ export const PROJECTS = {
       },
     },
     {
-      id: 8,
+      id: 9,
       title: "Everywherewegoconsulting",
       description:
         "Travel agency platform for all types of travel services and bookings.",
@@ -288,7 +300,7 @@ export const PROJECTS = {
       },
     },
     {
-      id: 9,
+      id: 10,
       title: "Itsehekiri Association",
       description:
         "Association website celebrating and promoting Itsehekiri heritage and culture.",
@@ -300,7 +312,7 @@ export const PROJECTS = {
       },
     },
     {
-      id: 10,
+      id: 11,
       title: "Coffee Shop",
       description:
         "Coffee shop website with a unique coffee menu and ordering system.",
